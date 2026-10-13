@@ -1,7 +1,9 @@
 # Lab 25B — Report
 
-**Họ tên / nhóm:** Bui Minh Quan — **MSV:** 2A202602958  
-**Commit:** 21d44f5374b3d78c72f373602d6aeb92ca85ff49  
+**Họ tên / nhóm:** Bui Minh Quan — **MSV:** 2A202602958
+
+**Commit:** 21d44f5374b3d78c72f373602d6aeb92ca85ff49
+
 **Điểm tự động:** 84.0 / 88; đã đạt toàn bộ 84 điểm công khai.
 
 Commit trên là snapshot code và dữ liệu đã kiểm chứng; báo cáo được lưu trong commit tiếp theo để tránh

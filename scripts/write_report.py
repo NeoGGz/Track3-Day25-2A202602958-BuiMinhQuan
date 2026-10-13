@@ -83,8 +83,10 @@ def main() -> None:
     )
     report = f"""# Lab 25B — Report
 
-**Họ tên / nhóm:** Bui Minh Quan — **MSV:** 2A202602958  
-**Commit:** {commit}  
+**Họ tên / nhóm:** Bui Minh Quan — **MSV:** 2A202602958
+
+**Commit:** {commit}
+
 **Điểm tự động:** {board['summary']['automatic']} / 88; đã đạt toàn bộ 84 điểm công khai.
 
 Commit trên là snapshot code và dữ liệu đã kiểm chứng; báo cáo được lưu trong commit tiếp theo để tránh
