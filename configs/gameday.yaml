@@ -53,7 +53,10 @@ client:
 # wrong_answers_by_reason, tune each value and justify it in report section 8.
 # ----------------------------------------------------------------------------
 cache:
-  similarity_threshold: 0.80
-  ttl_s: 600
-  max_stale_s: 0
+  # Public ablations: 0.80 yields 183 wrong answers; 0.97 loses the 50% hit target.
+  similarity_threshold: 0.90
+  # Short fresh lifetime bounds unannounced source changes (2 outdated at seed 25).
+  ttl_s: 30
+  # Retain a last-known answer through a 120 s outage; only serve stale after GiveUp.
+  max_stale_s: 180
   max_entries: 500
